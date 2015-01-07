@@ -1,5 +1,4 @@
-Name: Elisha Lee
-uni: esl2131
+
 Assignment 3: Crossword Puzzle Solver
 
 
@@ -22,7 +21,6 @@ Start Time:
  matching_squares_before_fill : 179.00
 End Time:
 11:23:10 PM
-
 RUNTIME PER PUZZLE: 1 seconds
 
 
