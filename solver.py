@@ -228,6 +228,7 @@ def calculate_score(puz):
                 total += possible_scores[word]    
     return total
 
+# EDITED BY ME
 def fill_blanks(solution, puz):
     words = defaultdict(set)
     word_file = open('../answers_cwg_otsys.txt', 'r')
@@ -282,6 +283,7 @@ def solve_recursive(puz,variables,domains,neighbors,S):
         success, next_domains, next_S = propagate(next_var,next_val,puz,domains,neighbors,S)
         return solve_recursive(puz,variables,next_domains,neighbors,next_S)
 
+# EDITED BY ME - DR.FILL Algorithm
 def solve_recursive_new(puz,variables,domains,neighbors,S, B, n, P):
     #print 'calling solve_recursive_new.....'
     #print P
